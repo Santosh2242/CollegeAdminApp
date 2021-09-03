@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".CsSyllabus">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginHorizontal="@dimen/text_margin"
+            android:layout_marginTop="@dimen/text_margin"
+            android:text="CSE 1st year Syllabus 2021"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:textSize="22sp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="650dp"
+            android:layout_marginTop="10dp"
+            android:scaleType="fitStart"
+            android:src="@drawable/cs1styear" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#F2D"/>
+
+        <TextView
+            android:layout_marginTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginHorizontal="@dimen/text_margin"
+            android:text="CSE 2nd year Syllabus 2021"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:textSize="22sp" />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="600dp"
+            android:scaleType="fitStart"
+            android:src="@drawable/cs2ndyear"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#F2D"/>
+
+
+        <TextView
+            android:layout_marginTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginHorizontal="@dimen/text_margin"
+            android:text="CSE Final year Syllabus 2021"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:textSize="22sp" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="650dp"
+            android:scaleType="fitStart"
+            android:src="@drawable/cs5sem"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="650dp"
+            android:scaleType="fitStart"
+            android:src="@drawable/cs6sem"/>
+
+
+
+
+    </LinearLayout>
+
+
+</ScrollView>
+

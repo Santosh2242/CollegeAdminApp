@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".website_item">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Check Your Result"
+            android:textColor="#0000AA"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/Rweb"
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginLeft="250dp"
+            android:onClick="MyResult"
+            android:text="Click here"
+            android:fontFamily="@string/bold"
+            android:background="#AA0000"/>
+
+    </androidx.cardview.widget.CardView>
+
+  <androidx.cardview.widget.CardView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Official Website of College"
+        android:textColor="#0000AA"
+        android:textSize="18sp" />
+
+    <Button
+            android:id="@+id/Cweb"
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+             android:layout_marginTop="2dp"
+            android:layout_marginLeft="250dp"
+            android:fontFamily="@string/bold"
+        android:onClick="MyCollege"
+            android:text="Click here"
+           android:background="#AA0000"/>
+
+  </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Official Website of Bteup"
+            android:textColor="#0000AA"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/Bweb"
+            android:onClick="MyBteup"
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginLeft="250dp"
+            android:fontFamily="@string/bold"
+            android:text="Click here"
+            android:background="#AA0000"/>
+
+
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

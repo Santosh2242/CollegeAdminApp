@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BookPdf">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:layout_marginTop="10dp">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="CSE and IT Book PDF "
+            android:textSize="40sp"
+            android:textStyle="bold"
+            android:textColor="#AA0000"/>
+
+        <View
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#345453"/>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:id="@+id/fcit_book"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Fundamentals of Computer and information Technology"
+            android:textSize="16sp"
+            android:onClick="Fcit"
+            android:fontFamily="@string/regular"
+            android:textColor="#0000BB"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Multimedia and Animation"
+            android:textSize="18sp"
+            android:onClick="Multimedia"
+            android:fontFamily="@string/regular"
+            android:textColor="#0000BB"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Concept of Programming Using C"
+            android:textSize="18sp"
+            android:onClick="UsingC"
+            android:fontFamily="@string/regular"
+            android:textColor="#0000BB"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Internet and Web Technology"
+            android:textSize="18sp"
+            android:onClick="WebTechnology"
+            android:fontFamily="@string/regular"
+            android:textColor="#0000BB"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Data Communication and Computer Networks"
+            android:textSize="18sp"
+            android:onClick="Dccn"
+            android:fontFamily="@string/regular"
+            android:textColor="#0000BB"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Data Structure Using C"
+            android:textSize="18sp"
+            android:onClick="Dsuc"
+            android:fontFamily="@string/regular"
+            android:textColor="#0000BB"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Database Management System"
+            android:textSize="18sp"
+            android:onClick="DBMS"
+            android:fontFamily="@string/regular"
+            android:textColor="#0000BB"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Object Oriented Programming Using Java"
+            android:textSize="18sp"
+            android:onClick="Java"
+            android:fontFamily="@string/regular"
+            android:textColor="#0000BB"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Operating System"
+            android:textSize="18sp"
+            android:onClick="OS"
+            android:fontFamily="@string/regular"
+            android:textColor="#0000BB"/>
+
+        <TextView
+            android:onClick="SE"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Software Engineering"
+            android:textSize="18sp"
+            android:fontFamily="@string/regular"
+            android:textColor="#0000BB"/>
+
+        <TextView
+            android:onClick="PHP"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Web Development using PHP"
+            android:textSize="18sp"
+            android:fontFamily="@string/regular"
+            android:textColor="#0000BB"/>
+
+        <TextView
+            android:onClick="python"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Python"
+            android:textSize="18sp"
+            android:fontFamily="@string/regular"
+            android:textColor="#0000BB"/>
+
+
+        <TextView
+            android:onClick="IOT"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Internet of Thing"
+            android:textSize="18sp"
+            android:fontFamily="@string/regular"
+            android:textColor="#0000BB"/>
+
+
+        <TextView
+            android:onClick="Android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Development of Android Application"
+            android:textSize="18sp"
+            android:fontFamily="@string/regular"
+            android:textColor="#0000BB"/>
+
+
+        <TextView
+            android:onClick="Cloud"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Cloud Computing"
+            android:textSize="18sp"
+            android:fontFamily="@string/regular"
+            android:textColor="#0000BB"/>
+
+        <View
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#345453"/>
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Electronics Engg Book PDF"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            android:textColor="#AA0000"/>
+
+        <View
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#345453"/>
+
+        <TextView
+            android:onClick="Bit"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Basic of Information Technology"
+            android:textSize="18sp"
+            android:fontFamily="@string/regular"
+            android:textColor="#0000BB"/>
+
+
+
+        <TextView
+            android:onClick="PCEngg"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Principal of Communication Enginnering"
+            android:textSize="18sp"
+            android:fontFamily="@string/regular"
+            android:textColor="#0000BB"/>
+
+
+        <TextView
+            android:onClick="ConsumerElectronic"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Consumer Electronics"
+            android:textSize="18sp"
+            android:fontFamily="@string/regular"
+            android:textColor="#0000BB"/>
+
+        <TextView
+            android:onClick="Cprogramming"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Programming in C"
+            android:textSize="18sp"
+            android:fontFamily="@string/regular"
+            android:textColor="#0000BB"/>
+
+        <TextView
+            android:onClick="Microwave"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Microwave Engineering"
+            android:textSize="18sp"
+            android:fontFamily="@string/regular"
+            android:textColor="#0000BB"/>
+
+        <TextView
+            android:onClick="Wireless"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Wireless and Mobile  Communication System"
+            android:textSize="18sp"
+            android:fontFamily="@string/regular"
+            android:textColor="#0000BB"/>
+
+        <View
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#345453"/>
+
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Electrical Engineering Book PDF"
+            android:textSize="33sp"
+            android:textStyle="bold"
+            android:textColor="#AA0000"/>
+
+        <View
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#345453"/>
+
+        <TextView
+            android:onClick="IndustrialElectronic"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Indutrial Electronic and Control"
+            android:textSize="18sp"
+            android:fontFamily="@string/regular"
+            android:textColor="#0000BB"/>
+
+
+        <TextView
+            android:onClick="Powerplant"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Power Plant Engineering"
+            android:textSize="18sp"
+            android:fontFamily="@string/regular"
+            android:textColor="#0000BB"/>
+
+
+        <TextView
+            android:onClick="Transmission"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Transmission and Distribution of Electrical Power "
+            android:textSize="18sp"
+            android:fontFamily="@string/regular"
+            android:textColor="#0000BB"/>
+
+
+        <TextView
+            android:onClick="Plc"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="PLC, Microcontroller and SCADA"
+            android:textSize="18sp"
+            android:fontFamily="@string/regular"
+            android:textColor="#0000BB"/>
+
+
+        <TextView
+           android:onClick="Utlization"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Utiliaztion of Electrical Energy"
+            android:textSize="18sp"
+            android:fontFamily="@string/regular"
+            android:textColor="#0000BB"/>
+
+
+        <TextView
+            android:onClick="CsinElectrical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Application of Computer Software in Electrical Engineering"
+            android:textSize="18sp"
+            android:fontFamily="@string/regular"
+            android:textColor="#0000BB"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Electrical Machine-III"
+            android:textSize="18sp"
+            android:fontFamily="@string/regular"
+            android:textColor="#0000BB"/>
+
+        <View
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:background="#AA0000"/>
+
+
+        <TextView
+            android:layout_marginTop="200dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="if u any needed you contact us developer!!!."
+            android:textSize="18sp"
+            android:fontFamily="@string/regular"
+            android:textColor="#BB0000"/>
+
+        <View
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:background="#AAffAA"/>
+
+
+
+    </LinearLayout>
+
+
+
+
+
+</ScrollView>
